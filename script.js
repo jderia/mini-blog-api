@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post - Mini Blog API</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Mini Blog API</a>
+
+    <div>
+      <a href="index.html">Home</a>
+      <a href="posts.html">Post</a>
+      <a href="autori.html">Autori</a>
+    </div>
+  </div>
+</nav>
+
+<main class="container mt-4">
+  <h1>Post del blog</h1>
+
+  <p>
+    In questa pagina verranno mostrati i post recuperati tramite API.
+  </p>
+
+  <div id="lista-post">
+    <!-- Qui verranno inseriti i post con JavaScript -->
+  </div>
+</main>
+
+<footer>
+  <p>Realizzato da Jacopo De Ria</p>
+  <a href="https://github.com/jderia/mini-blog-api" target="_blank">Repository GitHub</a>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
